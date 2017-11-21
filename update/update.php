@@ -6,7 +6,8 @@ file_put_contents(__DIR__.'/trivia.json', json_encode(load($path)));
 
 // ------------------------------------------------------------------------------------------------------------
 
-function load($path) {
+function load($path)
+{
     $questions = [];
 
     foreach (scandir($path) as $file) {
@@ -20,14 +21,16 @@ function load($path) {
     return $questions;
 }
 
-function ends_with($needle, $haystack) {
+function ends_with($needle, $haystack)
+{
     $length = strlen($needle);
 
     return $length === 0 ||
         (substr($haystack, -$length) === $needle);
 }
 
-function readJsonFile($file) {
+function readJsonFile($file)
+{
     echo "Reading file $file\n";
 
     $string = json_decode(loadAndFixJson($file), true);
@@ -40,7 +43,8 @@ function readJsonFile($file) {
     return $string;
 }
 
-function jsonError() {
+function jsonError()
+{
     switch (json_last_error()) {
         case JSON_ERROR_NONE:
             return false;
@@ -67,7 +71,8 @@ function jsonError() {
     return false;
 }
 
-function loadAndFixJson($file) {
+function loadAndFixJson($file)
+{
     $result = [];
 
     $file = file($file);
@@ -91,22 +96,26 @@ function loadAndFixJson($file) {
     return '[ ' . implode(",\n", $result) . ']';
 }
 
-function removeLastComma($jsonData) {
+function removeLastComma($jsonData)
+{
     $result = preg_replace("/(},)/", "}", $jsonData);
 
     return $result;
 }
 
-function dd($line) {
+function dd($line)
+{
     d($line);
     die;
 }
 
-function d($line) {
+function d($line)
+{
     var_dump($line);
 }
 
-function isValidJson($string) {
+function isValidJson($string)
+{
     $string = '[ ' . removeLastComma($string) . ']';
 
     return is_array(json_decode($string, true));
