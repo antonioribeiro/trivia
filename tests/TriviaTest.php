@@ -3,8 +3,9 @@
 namespace PragmaRX\Random;
 
 use PragmaRX\Trivia\Trivia;
+use PHPUnit\Framework\TestCase;
 
-class TriviaTest extends \PHPUnit\Framework\TestCase
+class TriviaTest extends TestCase
 {
     public function setUp()
     {
