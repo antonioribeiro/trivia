@@ -54,15 +54,15 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/pragmarx/trivia.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/pragmarx/trivia/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pragmarx/trivia.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/pragmarx/trivia.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/antonioribeiro/trivia/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/trivia.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/antonioribeiro/trivia.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/pragmarx/trivia.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/pragmarx/trivia
-[link-travis]: https://travis-ci.org/pragmarx/trivia
-[link-scrutinizer]: https://scrutinizer-ci.com/g/pragmarx/trivia/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/pragmarx/trivia
-[link-downloads]: https://packagist.org/packages/pragmarx/trivia
+[link-travis]: https://travis-ci.org/antonioribeiro/trivia
+[link-scrutinizer]: https://scrutinizer-ci.com/g/antonioribeiro/trivia/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/antonioribeiro/trivia
+[link-downloads]: https://packagist.org/packages/antonioribeiro/trivia
 [link-author]: https://github.com/antonioribeiro
 [link-contributors]: ../../contributors
