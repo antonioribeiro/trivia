@@ -22,7 +22,7 @@ class Trivia
     protected function load()
     {
         return json_decode(
-            file_get_contents(__DIR__ . '/database/trivia.json'),
+            file_get_contents(__DIR__ . '/../database/trivia.json'),
             true
         );
     }

@@ -18,6 +18,10 @@
         <whitelist>
             <directory suffix=".php">src/</directory>
         </whitelist>
+        <blacklist>
+            <directory>update/</directory>
+            <directory>database/</directory>
+        </blacklist>
     </filter>
     <logging>
         <log type="tap" target="build/report.tap"/>
